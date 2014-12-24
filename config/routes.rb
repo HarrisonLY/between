@@ -5,6 +5,5 @@ Rails.application.routes.draw do
       get 'welcome/about'
       get 'welcome/terms'
 
-  resources :trips
-
+resources :meetup
 end
