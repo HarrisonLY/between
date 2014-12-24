@@ -14,6 +14,9 @@
 ActiveRecord::Schema.define(version: 20141224155245) do
 
   create_table "trips", force: true do |t|
+    t.string   "location1"
+    t.string   "location2"
+    t.string   "place"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

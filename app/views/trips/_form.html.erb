@@ -11,7 +11,30 @@
     </div>
   <% end %>
 
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+<div class="background-for-form">
+</div>
+
+<br>
+
+<div class="form-styles">
+    <form class="form-inline" role="form">  
+    <div class="form-group">
+      <%= f.label :Your_Neighborhood? %><br>
+      <%= f.text_field :location1, placeholder: 'Tribeca'  %>
+    </div>
+    <div class="form-group">
+      <%= f.label :Their_Neighborhood? %><br>
+      <%= f.text_field :location2, placeholder: 'Upper West Side'  %>
+    </div>
+    <div class="form-group">
+      <%= f.label :What_Type_of_Place? %><br>
+      <%= f.text_field :place %>
+    </div>
+    <br>
+    <div class="actions">
+      <%= f.submit "Let's Go!", :class => 'btn btn-lg' %>
+    </div>
+  </form>
+</div>
+
 <% end %>
