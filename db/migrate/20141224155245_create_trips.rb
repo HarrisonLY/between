@@ -4,6 +4,8 @@ class CreateTrips < ActiveRecord::Migration
       t.string :location1
       t.string :location2
       t.string :place
+      t.float :latitude
+      t.float :longitude
 
       t.timestamps
     end

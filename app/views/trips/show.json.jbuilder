@@ -1,1 +1,1 @@
-json.extract! @trip, :id, :created_at, :updated_at
+json.extract! @trip, :id, :location1, :location2, :latitude, :longitude, :place, :created_at, :updated_at

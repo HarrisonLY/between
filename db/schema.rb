@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(version: 20141224155245) do
     t.string   "location1"
     t.string   "location2"
     t.string   "place"
+    t.float    "latitude"
+    t.float    "longitude"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
